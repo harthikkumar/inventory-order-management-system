@@ -59,7 +59,7 @@ function ProductForm({ onSubmit, editingProduct, onCancelEdit }) {
   };
 
   return (
-    <form onSubmit={handleSubmit} style={styles.form}>
+    <form onSubmit={handleSubmit} className="form-box">
       <h3>{editingProduct ? "Edit Product" : "Add Product"}</h3>
 
       {validationError && <p style={styles.error}>{validationError}</p>}

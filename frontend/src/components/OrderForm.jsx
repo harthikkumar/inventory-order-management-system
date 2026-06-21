@@ -55,7 +55,7 @@ function OrderForm({ onSubmit }) {
   };
 
   return (
-    <form onSubmit={handleSubmit} style={styles.form}>
+    <form onSubmit={handleSubmit} className="form-box">
       <h3>Create Order</h3>
 
       {validationError && <p style={styles.error}>{validationError}</p>}

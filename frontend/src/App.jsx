@@ -12,7 +12,7 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <div style={{ padding: "20px" }}>
+      <div className="page-container">
         <Routes>
           <Route path="/" element={<DashboardPage />} />
           <Route path="/products" element={<ProductsPage />} />

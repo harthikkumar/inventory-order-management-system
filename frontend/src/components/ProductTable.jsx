@@ -4,6 +4,8 @@ function ProductTable({ products, onEdit, onDelete }) {
   }
 
   return (
+    
+     <div className="table-wrapper">
     <table style={styles.table}>
       <thead>
         <tr>
@@ -38,6 +40,7 @@ function ProductTable({ products, onEdit, onDelete }) {
         ))}
       </tbody>
     </table>
+    </div>
   );
 }
 
@@ -51,7 +54,7 @@ const styles = {
     textAlign: "left",
     padding: "10px",
     borderBottom: "2px solid #e2e8f0",
-    backgroundColor: "#18191b",
+    backgroundColor: "#757b87",
   },
   td: {
     padding: "10px",

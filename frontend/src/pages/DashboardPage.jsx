@@ -44,7 +44,7 @@ function DashboardPage() {
       <h1>Dashboard</h1>
       <ErrorMessage message={error} />
 
-      <div style={styles.cardsContainer}>
+      <div className="cards-grid">
         <StatCard title="Total Products" value={products.length} color="#2563eb" />
         <StatCard title="Total Customers" value={customers.length} color="#16a34a" />
         <StatCard title="Total Orders" value={orders.length} color="#9333ea" />
@@ -66,6 +66,7 @@ const styles = {
     gap: "20px",
     flexWrap: "wrap",
     marginTop: "20px",
+    
   },
 };
 

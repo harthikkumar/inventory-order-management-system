@@ -6,6 +6,7 @@ function OrderTable({ orders, onDelete }) {
   }
 
   return (
+    <div className="table-wrapper">
     <table style={styles.table}>
       <thead>
         <tr>
@@ -35,6 +36,7 @@ function OrderTable({ orders, onDelete }) {
         ))}
       </tbody>
     </table>
+    </div>
   );
 }
 
@@ -48,7 +50,7 @@ const styles = {
     textAlign: "left",
     padding: "10px",
     borderBottom: "2px solid #e2e8f0",
-    backgroundColor: "#131415",
+    backgroundColor: "#757b87",
   },
   td: {
     padding: "10px",

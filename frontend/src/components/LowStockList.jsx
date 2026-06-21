@@ -23,7 +23,7 @@ const styles = {
   container: {
     marginTop: "30px",
     padding: "20px",
-    backgroundColor: "#0e0c09",
+    backgroundColor: "#d6b98d",
     border: "1px solid #fed7aa",
     borderRadius: "8px",
     maxWidth: "400px",

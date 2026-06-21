@@ -28,7 +28,7 @@ function CustomerForm({ onSubmit }) {
   };
 
   return (
-    <form onSubmit={handleSubmit} style={styles.form}>
+    <form onSubmit={handleSubmit} className="form-box">
       <h3>Add Customer</h3>
 
       {validationError && <p style={styles.error}>{validationError}</p>}

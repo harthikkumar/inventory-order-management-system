@@ -4,6 +4,7 @@ function CustomerTable({ customers, onDelete }) {
   }
 
   return (
+    <div className="table-wrapper">
     <table style={styles.table}>
       <thead>
         <tr>
@@ -28,6 +29,7 @@ function CustomerTable({ customers, onDelete }) {
         ))}
       </tbody>
     </table>
+    </div>
   );
 }
 
@@ -41,7 +43,7 @@ const styles = {
     textAlign: "left",
     padding: "10px",
     borderBottom: "2px solid #e2e8f0",
-    backgroundColor: "#070707",
+    backgroundColor: "#757b87",
   },
   td: {
     padding: "10px",
