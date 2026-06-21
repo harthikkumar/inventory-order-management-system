@@ -149,7 +149,7 @@ const styles = {
   },
   addBtn: {
     padding: "8px",
-    background: "#000000",
+    background: "#efdfdf",
     border: "1px dashed #94a3b8",
     borderRadius: "6px",
     cursor: "pointer",
